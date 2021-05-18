@@ -58,9 +58,6 @@ public class MainActivity extends AppCompatActivity {
                     c=aux;
                     sendSecondActivity(textoEdit1);
 
-
-
-
                 } else {
                     Toast.makeText(getApplicationContext(), "ERROR", Toast.LENGTH_LONG).show();
                 }
@@ -135,6 +132,7 @@ public class MainActivity extends AppCompatActivity {
     }
     private String getSharedcontador(){
         return preferences.getString( "contador","");
+
     }
 }
 
